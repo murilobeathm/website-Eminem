@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae8ea3a517.js" crossorigin="anonymous"></script>
+    <title>Eminem</title>
+</head>
+<body>
+    
+    <!--   barra de pesquisa ( home, banda, discografia e contatos )   -->  
+    <div class="header">
+    <ul>
+        <li>Home</li>
+        <li>Banda</li>
+        <li>Discografia</li>
+        <li>Contatos</li>
+    </ul>
+        
+    </div>
+
+    <!--  
+    h2 - com nome do musico 
+    p- com descrição (em italico)
+    p- contando a história
+    h3 - discografia
+    3 cards do cantos com algumas informações
+    -->
+    <div class="container1">
+        <h1 class="title">Eminem</h1>
+        <p class="subtitle">O caos perfeito</p>
+        <p class="intro">Eminem é um rapper, compositor e produtor musical norte-americano. O álbum "The Marshall Mathers”, na categoria artista-solo, foi considerado o mais vendido na história musical dos EUA. Eminem é um nome artístico de Marshal Bruce Mathers III, nascido em St. Joseph, Missouri, Estados Unidos, no dia 17 de outubro de 1972. Foi abandonado pelo pai e passou por problemas na infância por ter vivido em um bairro negro em Detroit, com fortes conotações raciais, pois Eminem é branco. Logo, interessou-se pelo Rap, ritmo dominante na época e apreciado por comunidades negras americanas. Em 1989, decidiu dedicar-se à música.</p>
+
+        <h2 class="title2">DISCOGRAFIA</h2>
+
+        <div class="galeria1">
+            <div id="disc1">Revival- 2017</div>
+            <img src="img/revival.webp" alt="revival" width="250px" height="200px
+            ">
+        </div>
+
+        <div class="galeria1">
+            <div id="disc2">Kamikaze- 2018</div>
+            <img id="img2" src="img/kamikaze.webp" alt="Kamikaze" width="250px" height="200px
+            ">
+        </div>
+
+        <div class="galeria1">
+            <div id="disc3">To Be Murdered By- 2020</div>
+            <img id="img3" src="img/tobemundered.jpeg" alt="tobemundered" width="250px" height="200px
+            ">
+        </div>
+
+    </div>
+
+    <!-- compra de bilhetes com tres cards indicando datas de shows, com background preto -->
+    <div class="container2">
+        <h2 id="tour">Tour</h2>
+        <h4 id="reserve">Reserve o seu bilhete</h4>
+
+        <div class="bilhete">
+            <p id="p1">Setembro, 2023 <span class="span">Sold out</span> </p>
+            <hr>
+            <p id="p2">Outubro, 2023 <span class="span"> Sold out</span></p>
+            <hr>
+            <p id="p3">Novembro, 2023 </p>
+
+            <p id="p4"> <span>200 bilhetes</span></p>
+        </div>
+
+        <div class="locais">
+
+        <div class="imgbilhete1"><img src="img/img-1.jpg" alt="Eminem1" width="240px" height="150px"> </div>
+        
+        <div class="comprabilhete1">
+            <p class="lpc">Lisboa</p>
+            <p class="inf" id="opacidade">Coliseu dos recreios</p>
+            <p class="inf">Concerto Coliseu dos Recreios em Lisboa.</p>
+
+            <div><span class="spancompra">Comprar Bilhetes</span>
+</div>
+        </div>
+        </div>
+
+        <div class="locais">
+
+        <div class="imgbilhete2" id="img2-3"><img src="img/img2.jpg" alt="Eminem2" width="240px" height="150px"></div>
+
+        <div class="comprabilhete2" id="img2-3">
+            <p class="lpc">Porto</p>
+            <p class="inf" id="opacidade">Coliseu dos Recreios</p>
+            <p class="inf">Concerto Coliseu dos Recreios No Porto.</p>
+            
+            <span class="spancompra" >Comprar Bilhetes</span>
+        </div>
+        </div>
+
+        <div class="locais">
+        <div class="imgbilhete3" id="img2-3"><img src="img/img3.jpg" alt="Eminem3" width="240px" height="150px"></div>
+
+        <div class="comprabilhete3" id="img2-3">
+            <p class="lpc">Coimbra</p>
+            <p class="inf" id="opacidade">Estádio Municipal de Coimbra</p>
+            <p class="inf">Concerto Estádio Municipal de Coimbra.</p>
+            <span class="spancompra">Comprar Bilhetes</span>
+        </div>
+    
+        </div>
+    </div>
+
+    <!-- contatos e caixa (nome, email e mensagem) -->
+    <div class="container3"> 
+        
+        <h1 id="titlecenter">CONTACTOS</h1>
+        <P id="subtitle">És um fã do cantor? Envia uma mensagem.</P>
+
+        <div class="contactos" id="igual">
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Belgrado, Jugoslávia</p>
+        <p><i class="fa-solid fa-phone"></i> Phone: +123 456 789</p>
+        <p><i class="fa-solid fa-envelope"></i> Email: ekethso@gmail.com</p>  
+    </div>
+        
+    <div class="input" id="igual">
+        <form id="nome-email"> <input type="text" name="text" value="Name"></form>
+
+        <form id="nome-email"> <input type="text" name="text" value="Email"></form>
+
+        <form id="mensagem"><input type="text" name="text" value="Message"></form>
+
+        <button class="button"> <span id="span-send">Send</span> </button>
+    </div>
+        
+    </div>
+
+    <!-- icone das redes sociais-->
+    <div class="footer">
+
+    <div class="redes-sociais">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p class="autor">Powerd by <a href="http://linkedin.com/in/murilo-beathm-88601b214">Murilo Beathm</a></p>
+        
+    </div>
+</body>
+</html>

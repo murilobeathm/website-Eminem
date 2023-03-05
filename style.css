@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    height: 30px;
+    background-color: black;
+    margin-top: -16px;
+    margin-right: -8px;
+}
+
+ul{
+    margin-left: -38px
+    
+}
+
+li{
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+
+li:hover{
+    background-color: rgba(165, 42, 42, 0.5);
+}
+
+
+.container1{
+    padding-top: 40px;
+    padding-left: 480px;
+    align-items: center;
+    width: 1250px;
+    height: 650px;
+}
+
+.title{
+    text-align: center;
+}
+
+.subtitle{
+    font-style: italic;
+    padding-top: -10px;
+    text-align: center;
+}
+
+.into{
+    text-align: left;
+}
+
+.title2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+div .galeria1{
+    float: left;
+    font-style: oblique;
+    
+}
+
+#disc1{
+    padding: 10px;
+    padding-left: 80px; 
+    
+}
+
+#disc2{
+    padding: 10px;
+    padding-left: 80px; 
+    
+}
+
+#disc3{
+    padding: 10px;
+    padding-left: 60px; 
+    
+}
+
+#img2{
+    padding-left: 25px;
+}
+
+#img3{
+    padding-left: 25px;
+    padding-right: -10px;
+}
+.container1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container2{
+    height: 800px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 480px;
+    margin-right: -8px;
+}
+
+#tour{
+    padding-left: 25%;
+    padding-top: 5px;
+}
+
+#reserve{
+    font-style: oblique;
+    padding-left: 22%;
+    
+}
+
+.bilhete{
+    background-color: white;
+    width: 760px;
+    color: black;
+    height: 135px;
+    
+}
+
+#p1{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+
+#p2{
+    padding-left: 10px;
+}
+
+#p3{
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+#p4{
+    float: right;
+    color: white;
+    background-color: black;
+    margin-top: -17px;
+    margin-right: 40px;
+    border-radius: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.span{
+    background-color: orangered;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    
+}
+
+.locais{
+    float: left;
+}
+
+.imgbilhete1{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.comprabilhete1{
+    background-color: white;
+    color: black;
+    width: 240px;
+    height: 180px;
+    margin-top: -19px;
+    
+}
+
+.imgbilhete2{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.comprabilhete2{
+    background-color: white;
+    color: black;
+    width: 240px;
+    height: 180px;
+    margin-top: -19px;
+    
+}
+
+.imgbilhete3{
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+.comprabilhete3{
+    background-color: white;
+    color: black;
+    width: 240px;
+    height: 180px;
+    margin-top: -19px;
+    
+    
+}
+
+#img2-3{
+    margin-left: 20px;
+}
+
+.lpc{
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.inf{
+    margin-left: 10px;
+}
+
+#opacidade{
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.spancompra{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.container2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container3{
+    height: 500px;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 480px;
+    margin-right: -8px;
+}
+
+#titlecenter{
+    padding-left: 290px;
+}
+
+#subtitle{
+    padding-left: 250px; 
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.652);
+}
+
+.contactos{
+    font-weight: bold;
+}
+
+#igual{
+    display: inline-block;
+}
+
+#nome-email{
+    display: inline-block;
+}
+
+#mensagem{
+    margin-top: 10px;
+}
+.input{
+    margin-left: 190px;
+}
+
+.button{
+    margin-top: 10px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+
+.container3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+   
+    background-color: rgba(255, 228, 196, 0.212);
+    height: 200px;
+    margin-right: -8px;
+}
+
+.redes-sociais{
+    margin-left: 44%;
+    padding-top: 80px;
+}
+
+.autor{
+    margin-left: 42%;
+}
+
+a:link{
+    color: black;
+}
